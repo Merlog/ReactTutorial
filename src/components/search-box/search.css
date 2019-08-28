@@ -1,14 +1,9 @@
 .search {
-  display: flex;
-  flex-direction: column;
-  background-color: #95dada;
-  border: solid 1px grey;
-  border-radius: 5px;
-  padding: 25px;
-  cursor: pointer;
-  transform: translate(0);
-  transition: transform 0.25s ease-out;
-}
-.card:hover {
-  transform: scale(1.05);
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
